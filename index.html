@@ -5,21 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productly</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
    <header class="header">
-        <div class="wrapper">
-          <a href="#">Logo</a>
+        <div class="wrapper header__wrapper">
+          <a href="#" class="logo"><img src="./image/Logo.png" alt="Productly LCC"></a>
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>About</li>
-                    <li>Product</li>
+                    <li class="navigation__link">Home</li>
+                    <li class="navigation__link">Services</li>
+                    <li class="navigation__link">About</li>
+                    <li class="navigation__link">Product</li>
                 </ul>
             </nav>
             <div class="header__buttons">
@@ -29,7 +27,7 @@
         </div> 
    </header> 
    <section class="promo">
-        <div class="wrapper">
+        <div class="wrapper promo__wrapper">
             <div class="promo__content">
                 <h1>The Design Thinking superpowers</h1>
                 <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
@@ -40,6 +38,7 @@
                     </a>
                 </div>
             </div>
+            <img src="./image/promo/promo.png" class="promo__image" alt="The Design Thinking superpowers">
         </div>
    </section>
    <section class="tools">
@@ -169,7 +168,7 @@
                         <p class="employee__title">Product Manager</p>
                         <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
                     </div>
-                    <img src="./image/employee/1.jpg" alt="employee photo"> 
+                    <img src="./image/employee/kathy.jpg" alt="employee photo"> 
                 </div>
                 <div class="employee block-shadowed">
                     <div class="employee__content">
@@ -177,7 +176,7 @@
                         <p class="employee__title">Support Marketing Specialist</p>
                         <a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
                     </div>
-                    <img src="./image/employee/2.jpg" alt="employee photo"> 
+                    <img src="./image/employee/alexandra.jpg" alt="employee photo"> 
                 </div>
                 <div class="employee block-shadowed">
                     <div class="employee__content">
@@ -185,7 +184,7 @@
                         <p class="employee__title">Photographer</p>
                         <a href="mailto:melania@gmail.com">melania@gmail.com</a>
                     </div>
-                    <img src="./image/employee/3.jpg" alt="employee photo"> 
+                    <img src="./image/employee/melani.jpg" alt="employee photo"> 
                 </div>
             </div>
         </div>
@@ -221,7 +220,7 @@
    <footer class="footer">
         <div class="wrapper">
             <div class="layout-4-column">
-                <a href="#">Logo</a>
+                <a href="#" class="logo"><img src="./image/Logo.png" alt="Productly LCC"></a>
                 <div class="footer-navigation">
                     <h4>Quick Links</h4>
                     <ul class="footer-navigation__links">
