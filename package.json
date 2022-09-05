@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ElizabethT7/Productly/issues"
   },
-  "homepage": "https://github.com/ElizabethT7/Productly#readme"
+  "homepage": "https://github.com/ElizabethT7/Productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
